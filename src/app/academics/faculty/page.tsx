@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Award, BookOpen, GraduationCap, Users } from "lucide-react";
 
 const facultyStats = [
-  { icon: Users, value: "180+", label: "Faculty Members" },
+  { icon: Users, value: "20+", label: "Faculty Members" },
   { icon: GraduationCap, value: "85%", label: "Hold Advanced Degrees" },
   { icon: Award, value: "15", label: "Average Years Experience" },
   { icon: BookOpen, value: "60+", label: "Published Authors" },
