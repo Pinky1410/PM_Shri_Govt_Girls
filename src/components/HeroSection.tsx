@@ -152,7 +152,7 @@ export default function HeroSection() {
                   alt="PM Shri School - Empowering Girls, Building Futures"
                   width={500}
                   height={600}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-[200%] object-cover"
                   priority
                 />
                 
