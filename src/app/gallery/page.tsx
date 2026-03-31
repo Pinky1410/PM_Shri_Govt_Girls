@@ -13,11 +13,7 @@ const galleryImages = [
   { src: "/images/activities/school_activity.jpeg", alt: "Student Activities", category: "Campus" },
   { src: "/images/facilities/ict_lab.jpeg", alt: "ICT Lab", category: "Facilities" },
   { src: "/images/facilities/yoga_fitness.jpeg", alt: "Yoga & Fitness", category: "Facilities" },
-  { src: "/images/hero/pm.jpeg", alt: "PM Shri School", category: "Campus" },
-  { src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80", alt: "Campus Building", category: "Campus" },
-  { src: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", alt: "Students in Library", category: "Academics" },
-  { src: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80", alt: "Classroom Learning", category: "Academics" },
-  { src: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1200&q=80", alt: "Science Lab", category: "Facilities" },
+  
 ];
 
 const categories = ["All", "Campus", "Academics", "Events", "Facilities"];
