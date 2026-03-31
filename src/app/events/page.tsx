@@ -2,18 +2,20 @@
 
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Clock, ArrowRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const upcomingEvents = [
   {
     id: 1,
-    title: "Annual Science Fair",
-    date: "April 15, 2026",
+    title: "पर्यावरण शिक्षण कार्यक्रम 2025",
+    date: "March 23, 2025",
     time: "9:00 AM - 4:00 PM",
-    location: "Main Auditorium",
+    location: "PM Shri Govt Girls School",
     description: "Students showcase innovative science projects and compete for top honors.",
     category: "Academic",
     featured: true,
+    image: "/images/events/पर्यावरण शिक्षण कार्यक्रम 2025.jpg",
   },
   {
     id: 2,
@@ -47,13 +49,14 @@ const upcomingEvents = [
   },
   {
     id: 5,
-    title: "Graduation Ceremony",
-    date: "June 15, 2026",
+    title: "अनुगूँज 2025",
+    date: "March 23, 2025",
     time: "10:00 AM - 12:00 PM",
-    location: "University Stadium",
-    description: "Celebrating the achievements of our graduating class of 2026.",
+    location: "PM Shri Govt Girls School",
+    description: "कार्यक्रम में माननीय मुख्यमंत्री महोदय, माननीय शिक्षा मंत्री महोदय एवं शिक्षा विभाग के अधिकारीगणों की उपस्थिति में पीएम श्री एमएलबी कन्या उच्चतर माध्यमिक विद्यालय बरखेड़ा भेल भोपाल की छात्राओं की मनमोहक प्रस्तुति",
     category: "Ceremony",
     featured: true,
+    image: "/images/events/अनुगूँज 2025 कार्यक्रम.jpg",
   },
   {
     id: 6,
@@ -128,9 +131,20 @@ export default function EventsPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="card-premium overflow-hidden group"
               >
-                <div className="h-48 bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center">
-                  <Calendar className="w-16 h-16 text-gold-400" />
-                </div>
+                {event.image ? (
+                  <div className="h-48 relative">
+                    <Image
+                      src={event.image}
+                      alt={event.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="h-48 bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center">
+                    <Calendar className="w-16 h-16 text-gold-400" />
+                  </div>
+                )}
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
                     <span className="px-3 py-1 rounded-full bg-gold-100 text-gold-700 text-xs font-semibold">
