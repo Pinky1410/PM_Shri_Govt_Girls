@@ -5,8 +5,6 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle, Calendar, FileText, Users } from "lucide-react";
 
 const requirements = [
-  { grade: "Pre-Kindergarten", age: "3+ years", requirements: ["Birth certificate", "Immunization records", "Parent interview"] },
-  { grade: "Kindergarten", age: "5+ years", requirements: ["Birth certificate", "Previous school records (if any)", "Entrance assessment", "Parent interview"] },
   { grade: "Elementary (Grades 1-5)", age: "6-10 years", requirements: ["Previous school transcripts", "Birth certificate", "Entrance assessment", "Teacher recommendation", "Parent interview"] },
   { grade: "Middle School (Grades 6-8)", age: "11-13 years", requirements: ["Previous 2 years transcripts", "Birth certificate", "Entrance exam", "Teacher recommendations (2)", "Student essay", "Parent interview"] },
   { grade: "High School (Grades 9-12)", age: "14-17 years", requirements: ["Previous 2 years transcripts", "Birth certificate", "Entrance exam", "Teacher recommendations (2)", "Student essay", "Extracurricular portfolio", "Parent and student interview"] },
