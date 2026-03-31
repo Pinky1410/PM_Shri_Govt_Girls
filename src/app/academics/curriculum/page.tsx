@@ -12,13 +12,6 @@ const curriculumFeatures = [
 
 const gradeLevels = [
   {
-    level: "Early Childhood",
-    grades: "Pre-K - Kindergarten",
-    focus: "Foundational Skills",
-    subjects: ["Early Literacy", "Numeracy", "Social Skills", "Creative Expression", "Physical Development"],
-    description: "Play-based learning environment that fosters curiosity, creativity, and a love for learning through hands-on activities."
-  },
-  {
     level: "Elementary",
     grades: "Grades 1-5",
     focus: "Core Competencies",
