@@ -68,9 +68,7 @@ export default function MissionPage() {
             <blockquote className="relative">
               <span className="absolute -top-8 left-0 text-8xl text-gold-200 font-serif">"</span>
               <p className="font-heading text-3xl md:text-4xl font-medium text-navy-900 leading-relaxed relative z-10 px-8">
-                To inspire and empower students to become compassionate, innovative, and ethical leaders 
-                who will make a positive impact on the world through a rigorous academic program and 
-                holistic character development.
+                छात्रों को प्रेरित और सशक्त बनाना ताकि वे करुणामय, नवप्रवर्तनशील और नैतिक नेता बन सकें, जो एक कठोर शैक्षणिक कार्यक्रम और समग्र चरित्र निर्माण के माध्यम से विश्व पर सकारात्मक प्रभाव डालें।
               </p>
               <span className="absolute -bottom-16 right-0 text-8xl text-gold-200 font-serif">"</span>
             </blockquote>
@@ -141,19 +139,13 @@ export default function MissionPage() {
                 Our Vision for the Future
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                We envision PM Shri as a model institution that transforms education through 
-                innovation, inclusivity, and excellence. By 2030, we aim to be recognized globally 
-                as a leader in preparing students for the challenges and opportunities of the 21st century.
+                हम पीएम श्री को एक आदर्श संस्थान के रूप में देखते हैं जो नवाचार, समावेशिता और उत्कृष्टता के माध्यम से शिक्षा को परिवर्तित करता है। 2030 तक, हमारा लक्ष्य 21वीं सदी की चुनौतियों और अवसरों के लिए छात्रों को तैयार करने में वैश्विक स्तर पर अग्रणी के रूप में स्थापित होना है।
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our vision extends beyond academic achievement to the cultivation of character, creativity, 
-                and civic responsibility. We strive to create an environment where every student discovers 
-                their unique talents and develops the confidence to pursue their dreams.
+                हमारी दृष्टि केवल अकादमिक उपलब्धि तक सीमित नहीं है, बल्कि यह चरित्र, रचनात्मकता और नागरिक जिम्मेदारी के विकास तक फैली हुई है। हम ऐसा वातावरण बनाने का प्रयास करते हैं जहां प्रत्येक छात्र अपनी अद्वितीय प्रतिभा को पहचाने और अपने सपनों को पूरा करने का आत्मविश्वास विकसित करे।
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We are committed to continuous improvement, embracing new technologies and pedagogical 
-                approaches while maintaining the timeless values that have defined our institution for 
-                over seven decades.
+                हम निरंतर सुधार के लिए प्रतिबद्ध हैं - नई तकनीकों और शैक्षिक पद्धतियों को अपनाते हुए, साथ ही उन शाश्वत मूल्यों को संजोए रखते हैं जिन्होंने सात दशकों से अधिक समय से हमारी संस्था की पहचान बनाई है।
               </p>
             </motion.div>
             <motion.div
@@ -192,7 +184,7 @@ export default function MissionPage() {
             >
               <div className="aspect-[3/4] relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80"
+                  src="/images/mission/mission2.jpg"
                   alt="Students learning"
                   fill
                   className="object-cover"
@@ -213,7 +205,7 @@ export default function MissionPage() {
             >
               <div className="aspect-[3/4] relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80"
+                  src="/images/mission/mission1.jpg"
                   alt="Collaboration"
                   fill
                   className="object-cover"
@@ -234,7 +226,7 @@ export default function MissionPage() {
             >
               <div className="aspect-[3/4] relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=600&q=80"
+                  src="/images/mission/mission3.jpg"
                   alt="Achievement"
                   fill
                   className="object-cover"
