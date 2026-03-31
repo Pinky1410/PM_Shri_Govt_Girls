@@ -177,7 +177,7 @@ export default function ContactPage() {
           >
             <div className="card-premium overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.426!2d77.442684!3d23.265879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c683333333333%3A0x4444444444444444!2sE-Sector%20Barkheda%20BHEL%20Bhopal!5e0!3m2!1sen!2sin!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.6458794813207!2d77.4680245!3d23.2195726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4229bab237cd%3A0x3beba153582e2605!2sGovt%20MLB%20Girls%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1774990234435!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
