@@ -1,22 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Building2, Microscope, Music, Dumbbell, Laptop, BookOpen, Play } from "lucide-react";
+import { ArrowRight, Building2, Microscope, Music, Dumbbell, Laptop, BookOpen } from "lucide-react";
+import FacilityCard from "./FacilityCard";
 
 const facilities = [
   {
     icon: Building2,
     title: "Classrooms",
     description: "Well-ventilated classrooms with blackboards and basic furniture for comfortable learning.",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
+    image: "/images/facilities/ict_lab.jpeg",
   },
   {
     icon: Microscope,
     title: "Science Lab",
     description: "Lab with basic equipment for Physics, Chemistry, and Biology practical classes.",
-    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80",
+    image: "/images/facilities/lab.jpg",
   },
   {
     icon: Laptop,
@@ -29,7 +29,7 @@ const facilities = [
     icon: BookOpen,
     title: "Library",
     description: "Library with textbooks, reference books, and quiet space for reading and study.",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=800&q=80",
+    image: "/images/facilities/ict_lab.jpeg",
   },
   {
     icon: Dumbbell,
@@ -41,7 +41,7 @@ const facilities = [
     icon: Music,
     title: "Activity Hall",
     description: "Hall for cultural programs, music, dance, and school events.",
-    image: "https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=800&q=80",
+    image: "/images/facilities/ict_lab.jpeg",
   },
 ];
 
@@ -86,70 +86,16 @@ export default function FacilitiesSection() {
         {/* Facilities Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {facilities.map((facility, index) => (
-            <motion.div
+            <FacilityCard
               key={facility.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10"
-            >
-              {/* Image / Video */}
-              <div className="relative h-48 overflow-hidden bg-navy-900">
-                {facility.isVideo ? (
-                  <div className="relative w-full h-full">
-                    <video
-                      src={facility.video}
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      preload="metadata"
-                      className="w-full h-full object-cover"
-                    />
-                    {/* Video Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/50 to-transparent" />
-                    {/* Video Badge */}
-                    <div className="absolute top-3 left-3 px-2 py-1 bg-red-500 text-white text-xs font-semibold rounded">
-                      LIVE
-                    </div>
-                    {/* Play Icon on Hover */}
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="w-12 h-12 rounded-full bg-white/90 flex items-center justify-center">
-                        <Play className="w-5 h-5 text-navy-900 ml-0.5" />
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <>
-                    <Image
-                      src={facility.image!}
-                      alt={facility.title}
-                      fill
-                      loading="lazy"
-                      className="object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/50 to-transparent" />
-                  </>
-                )}
-              </div>
-
-              {/* Content */}
-              <div className="p-6">
-                <div className="w-12 h-12 rounded-xl bg-gold-500/20 flex items-center justify-center mb-4 group-hover:bg-gold-500/30 transition-colors">
-                  <facility.icon className="w-6 h-6 text-gold-400" />
-                </div>
-                <h3 className="font-heading text-xl font-bold text-white mb-2 group-hover:text-gold-400 transition-colors">
-                  {facility.title}
-                </h3>
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  {facility.description}
-                </p>
-              </div>
-
-              {/* Hover Border Effect */}
-              <div className="absolute inset-0 rounded-2xl border-2 border-gold-500/0 group-hover:border-gold-500/30 transition-colors pointer-events-none" />
-            </motion.div>
+              title={facility.title}
+              description={facility.description}
+              icon={facility.icon}
+              image={facility.image}
+              video={facility.video}
+              isVideo={facility.isVideo}
+              index={index}
+            />
           ))}
         </div>
 
