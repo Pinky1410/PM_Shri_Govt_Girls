@@ -5,9 +5,9 @@ import Image from "next/image";
 import { Award, Users, BookOpen, Target, History, Lightbulb } from "lucide-react";
 
 const milestones = [
-  { year: "2000", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was established with a vision to provide quality education rooted in values." },
-  { year: "2005", title: "Expansion", description: "Added secondary school facilities and introduced advanced science laboratories." },
-  { year: "2010", title: "Technology Integration", description: "Pioneered computer education with state-of-the-art computer labs." },
+  { year: "1984", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was established with a vision to provide quality education rooted in values." },
+  { year: "1999", title: "Expansion", description: "Added secondary school facilities and introduced advanced science laboratories." },
+  { year: "2012", title: "Technology Integration", description: "Pioneered computer education with state-of-the-art computer labs." },
   { year: "2015", title: "Recognition", description: "Received accreditation for academic excellence in girls education." },
   { year: "2020", title: "New Facilities", description: "Inaugurated modern campus with upgraded sports facilities." },
   { year: "2024", title: "Digital Transformation", description: "Launched comprehensive digital learning platform and smart classrooms." },
@@ -43,7 +43,7 @@ export default function AboutPage() {
             className="max-w-3xl"
           >
             <h1 className="font-heading text-5xl md:text-6xl font-bold text-white mb-6">
-              About <span className="text-gradient">PM Shri</span>
+              About <span className="text-gradient">PM Shri Govt. Girls MLB</span>
             </h1>
             <p className="text-xl text-white/70 leading-relaxed">
               For over seven decades, we have been shaping young minds and building
@@ -70,19 +70,13 @@ export default function AboutPage() {
                 </span>
               </div>
               <h2 className="font-heading text-4xl font-bold text-navy-900 mb-6">
-                A Legacy of Excellence
+                उत्कृष्टता की विरासत
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                PM Shri Govt. MLB GIRLS Higher Secondary School was founded with a singular vision: to provide
-                exceptional education that nurtures both mind and character. What began as a
-                small institution has grown into a premier educational establishment,
-                recognized for academic excellence and holistic development.
+                पीएम श्री सरकारी एमएलबी गर्ल्स उच्चतर माध्यमिक विद्यालय की स्थापना एक विशिष्ट लक्ष्य के साथ हुई थी: मन और चरित्र दोनों का पोषण करने वाली उत्कृष्ट शिक्षा प्रदान करना। जो एक छोटे से संस्थान के रूप में प्रारंभ हुआ, वह आज अकादमिक उत्कृष्टता और समग्र विकास के लिए प्रसिद्ध एक प्रमुख शैक्षिक संस्थान के रूप में विकसित हुआ है।
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Our journey has been marked by continuous innovation, unwavering commitment
-                to quality, and the success of thousands of students who have gone on to
-                become leaders in their respective fields. Today, we stand as a testament
-                to the power of quality education in transforming lives.
+                हमारी यात्रा निरंतर नवाचार, गुणवत्ता के प्रति अटूट समर्पण, और हजारों छात्रों की सफलता से चिह्नित है जो अपने-अपने क्षेत्रों में नेता बने हैं। आज, हम गुणवत्तापूर्ण शिक्षा की शक्ति द्वारा जीवनों को बदलने के प्रमाण के रूप में खड़े हैं।
               </p>
             </motion.div>
             <motion.div
@@ -92,18 +86,18 @@ export default function AboutPage() {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <div className="aspect-[4/3] relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
+                <div className="aspect-[10/12] relative">
                   <Image
-                    src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
+                    src="/images/school-image.jpeg"
                     alt="School Campus"
                     fill
                     className="object-cover"
                   />
                 </div>
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-gold-500 text-navy-900 p-6 rounded-xl shadow-xl">
-                <div className="text-4xl font-bold">25+</div>
+              <div className="absolute -bottom-6 -left-6 bg-gold-500 text-navy-900 p-4 rounded-xl shadow-xl">
+                <div className="text-4xl font-bold">40+</div>
                 <div className="text-sm font-medium">Years of Excellence</div>
               </div>
             </motion.div>
