@@ -15,51 +15,26 @@ const facultyHighlights = [
   {
     name: "Mrs. Smita Meshram",
     role: "Principal",
-    credentials: "M.A., B.Ed., Education Leadership",
     bio: "Leading the institution with vision and dedication, fostering academic excellence and holistic student development.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+    image: "/images/principal.jpeg",
   },
   {
-    name: "Mr. Demo Dash",
+    name: "Dr. Jitendra Pal Singh Chauhan",
     role: "ICT Prabhari",
-    credentials: "M.Tech in Computer Science",
     bio: "Overseeing ICT lab operations and digital infrastructure, ensuring cutting-edge technology education for all students.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+    image: "/images/faculty/ICT Prabhari.jpeg",
   },
   {
     name: "Mrs. Bhomershwari Pardhi",
     role: "ICT Trainer",
-    credentials: "B.Tech in Information Technology",
     bio: "Dedicated to training students in computer skills, programming fundamentals, and digital literacy programs.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+    image: "/images/faculty/ICT trainer.jpeg",
   },
   {
-    name: "Dr. Sarah Mitchell",
-    role: "Head of English Department",
-    credentials: "Ph.D. in Literature, Harvard University",
-    bio: "20 years of teaching experience with specialization in contemporary American literature.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
-  },
-  {
-    name: "Prof. James Chen",
-    role: "Head of Mathematics",
-    credentials: "M.S. in Mathematics, MIT",
-    bio: "Former researcher with passion for making complex concepts accessible to all students.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
-  },
-  {
-    name: "Dr. Michael Roberts",
-    role: "Head of Science Department",
-    credentials: "Ph.D. in Chemistry, Stanford",
-    bio: "Published researcher with 15 years of experience in secondary science education.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80",
-  },
-  {
-    name: "Prof. Emily Davis",
-    role: "Head of Social Studies",
-    credentials: "M.A. in History, Oxford University",
-    bio: "Expert in world history with extensive field research experience across Europe and Asia.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80",
+    name: "Faculty_name",
+    role: "faculty Role",
+    bio: "Sample bio for demonstration purposes.",
+    image: "https://ui-avatars.com/api/?name=Faculty&background=0D47A1&color=fff&size=300",
   },
 ];
 
@@ -158,12 +133,11 @@ export default function FacultyPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-0 right-0 text-white">
-                    <h3 className="font-heading text-lg font-bold">{faculty.name}</h3>
                     <p className="text-gold-400 text-sm">{faculty.role}</p>
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-gold-600 text-sm font-medium mb-2">{faculty.credentials}</p>
+                  <h3 className="font-heading text-lg font-bold text-navy-900 mb-1">{faculty.name}</h3>
                   <p className="text-gray-600 text-sm">{faculty.bio}</p>
                 </div>
               </motion.div>
