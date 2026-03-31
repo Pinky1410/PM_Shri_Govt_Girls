@@ -8,7 +8,6 @@ const departments = [
   {
     icon: BookOpen,
     name: "English & Literature",
-    head: "Dr. Sarah Mitchell",
     description: "Developing critical reading, writing, and communication skills through classic and contemporary literature.",
     courses: ["English Language Arts", "Creative Writing", "Journalism", "AP English Literature", "AP English Language"],
     image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80",
@@ -16,7 +15,6 @@ const departments = [
   {
     icon: Calculator,
     name: "Mathematics",
-    head: "Prof. James Chen",
     description: "Building mathematical reasoning and problem-solving skills from arithmetic to advanced calculus.",
     courses: ["Algebra", "Geometry", "Pre-Calculus", "Calculus", "AP Statistics", "AP Calculus AB/BC"],
     image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=400&q=80",
@@ -24,7 +22,6 @@ const departments = [
   {
     icon: FlaskConical,
     name: "Science",
-    head: "Dr. Michael Roberts",
     description: "Inquiry-based science education with state-of-the-art laboratories and hands-on experimentation.",
     courses: ["Biology", "Chemistry", "Physics", "Environmental Science", "AP Biology", "AP Chemistry", "AP Physics"],
     image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=80",
@@ -32,7 +29,6 @@ const departments = [
   {
     icon: Globe,
     name: "Social Studies",
-    head: "Prof. Emily Davis",
     description: "Exploring history, geography, and social sciences to develop informed, engaged citizens.",
     courses: ["World History", "US History", "Geography", "Economics", "Government", "AP US History", "AP World History"],
     image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=400&q=80",
@@ -40,7 +36,6 @@ const departments = [
   {
     icon: Languages,
     name: "World Languages",
-    head: "Prof. Maria Garcia",
     description: "Comprehensive language instruction fostering global awareness and cross-cultural communication.",
     courses: ["Spanish", "French", "Mandarin Chinese", "Latin", "AP Spanish", "AP French"],
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80",
@@ -48,7 +43,6 @@ const departments = [
   {
     icon: Computer,
     name: "Technology & Computer Science",
-    head: "Dr. David Kim",
     description: "Preparing students for the digital age with programming, digital literacy, and technology integration.",
     courses: ["Introduction to Programming", "Computer Science Principles", "Web Development", "Robotics", "AP Computer Science A"],
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
@@ -56,7 +50,6 @@ const departments = [
   {
     icon: Palette,
     name: "Visual Arts",
-    head: "Prof. Lisa Anderson",
     description: "Nurturing creativity and artistic expression through various media and techniques.",
     courses: ["Studio Art", "Photography", "Digital Art", "Ceramics", "AP Studio Art"],
     image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=400&q=80",
@@ -64,7 +57,6 @@ const departments = [
   {
     icon: Music,
     name: "Performing Arts",
-    head: "Prof. Robert Taylor",
     description: "Developing musical and theatrical talents through performance and theoretical study.",
     courses: ["Band", "Choir", "Orchestra", "Drama", "Music Theory", "AP Music Theory"],
     image: "https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=400&q=80",
@@ -131,7 +123,6 @@ export default function DepartmentsPage() {
                       </div>
                       <h3 className="font-heading text-xl font-bold text-navy-900">{dept.name}</h3>
                     </div>
-                    <p className="text-gold-600 font-medium text-sm mb-3">Head: {dept.head}</p>
                     <p className="text-gray-600 text-sm mb-4">{dept.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {dept.courses.slice(0, 4).map((course) => (
