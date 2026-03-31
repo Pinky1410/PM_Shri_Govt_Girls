@@ -5,9 +5,9 @@ import Image from "next/image";
 import { Calendar, Users, Award, Building2 } from "lucide-react";
 
 const timeline = [
-  { year: "2000", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was founded with a vision to provide quality education rooted in values and excellence.", highlight: "12 students, 3 teachers" },
-  { year: "2005", title: "First Graduating Class", description: "Our first batch of students graduated and went on to attend prestigious universities, setting the standard for academic excellence.", highlight: "100% college acceptance" },
-  { year: "2010", title: "Campus Expansion", description: "Added secondary school facilities, science laboratories, and a library to support growing enrollment and advanced academic programs.", highlight: "New wing opened" },
+  { year: "1986", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was founded with a vision to provide quality education rooted in values and excellence.", highlight: "12 students, 3 teachers" },
+  { year: "1999", title: "First Graduating Class", description: "Our first batch of students graduated and went on to attend prestigious universities, setting the standard for academic excellence.", highlight: "100% college acceptance" },
+  { year: "2012", title: "Campus Expansion", description: "Added secondary school facilities, science laboratories, and a library to support growing enrollment and advanced academic programs.", highlight: "New wing opened" },
   { year: "2015", title: "Recognition", description: "Received accreditation for academic excellence in girls education and modernized campus facilities.", highlight: "New facilities" },
   { year: "2020", title: "Technology Integration", description: "Pioneered computer education with state-of-the-art computer labs and introduced technology across all grade levels.", highlight: "100+ computers" },
   { year: "2024", title: "Digital Learning", description: "Implemented 1:1 device program, launched online learning platforms, and introduced STEM curriculum.", highlight: "iPad for every student" },
@@ -48,10 +48,10 @@ export default function HistoryPage() {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: Calendar, value: "25", label: "Years of Excellence" },
-              { icon: Users, value: "5,000+", label: "Alumni Worldwide" },
-              { icon: Award, value: "50+", label: "Awards Won" },
-              { icon: Building2, value: "10", label: "Acre Campus" },
+              { icon: Calendar, value: "40", label: "Years of Excellence" },
+              { icon: Users, value: "500+", label: "Alumni Worldwide" },
+              { icon: Award, value: "20+", label: "Awards Won" },
+              { icon: Building2, value: "1", label: "Acre Campus" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
