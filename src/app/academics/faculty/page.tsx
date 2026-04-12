@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Award, BookOpen, GraduationCap, Users } from "lucide-react";
+import { useState } from "react";
 
 const facultyStats = [
   { icon: Users, value: "20+", label: "Faculty Members" },
@@ -39,13 +40,13 @@ const facultyHighlights = [
   },
   {
     name: "Mrs. Bhavana Mehta",
-    role: "Physics UMS & Exam Incharge",
+    role: "Physics UMS",
     bio: "Work Experience 30+ years in teaching.",
     image: "/images/faculty/Bhavana_Mehta.jpg",
   },
   {
     name: "Mrs. Mamta Dixit",
-    role: "Accounts UMS",
+    role: "Account UMS",
     bio: "Work Experience 25+ years in teaching.",
     image: "/images/faculty/Mamta_dixit.jpg",
   },
@@ -81,7 +82,7 @@ const facultyHighlights = [
     name: "Mrs. Roshni Toppo",
     role: "Arts (geogrophy) UMS",
     bio: "Work Experience 13+ years in teaching.",
-    image: "/images/faculty/Roshni_Toppo.jpg",
+    image: "/images/faculty/Roshni_toppo.jpg",
   },
   {
     name: "Mrs. Aarti Singh RAI",
@@ -338,6 +339,42 @@ const facultyHighlights = [
 ];
 
 export default function FacultyPage() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const categories = [
+    "All",
+    "Principal",
+    "Prabhari & Management",
+    "Higher Secondary Staff",
+    "High School Staff",
+    "Middle School Staff",
+    "Pre-primary & Primary Staff",
+    "Vocational Trainer",
+    "ICT Computer Instructor",
+    "Other Faculty",
+    "School Helping Staff"
+  ];
+
+  const getCategory = (faculty: any) => {
+    if (faculty.role === "Principal") return "Principal";
+    if (["Dr. Jitendra Pal Singh Chauhan", "Mr. D.C. Modak", "Mrs. Sandhya_Jain"].includes(faculty.name)) return "Prabhari & Management";
+
+    if (["Mrs. Swati Verma", "Mrs. Sabeena Masih", "Miss. Savita Sahu "].includes(faculty.name)) return "Other Faculty";
+
+    if (faculty.role.includes("UMS")) return "Higher Secondary Staff";
+    if (faculty.role.includes("MS") && !faculty.role.includes("UMS") || faculty.name === "Mrs. Krishna Malviya" || faculty.name === "Mr. Aakash Tiwari") return "High School Staff";
+    if (faculty.role.includes("Middle") || faculty.role === "Science Teacher" || faculty.role === "Sanskrit Teacher" || faculty.name === "Mrs. Samita Debnath") return "Middle School Staff";
+    if (faculty.role.includes("Primary") || (faculty.role === "Lab Assistant" && faculty.name === "Mrs. Abha Shriwastav")) return "Pre-primary & Primary Staff";
+    if (faculty.role.includes("(VT)")) return "Vocational Trainer";
+    if (faculty.role === "ICT Computer Instructor") return "ICT Computer Instructor";
+    if (faculty.role === "School helping staff") return "School Helping Staff";
+    return "Other Faculty";
+  };
+
+  const filteredFaculty = selectedCategory === "All"
+    ? facultyHighlights
+    : facultyHighlights.filter(f => getCategory(f) === selectedCategory);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
@@ -404,17 +441,30 @@ export default function FacultyPage() {
             <div className="flex items-center justify-center gap-3 mb-4">
               <div className="h-px w-12 bg-gold-500" />
               <span className="text-gold-600 font-semibold text-sm tracking-wider uppercase">
-                Leadership & Department Heads
+                Explore Our Faculty
               </span>
               <div className="h-px w-12 bg-gold-500" />
             </div>
-            <h2 className="font-heading text-4xl font-bold text-navy-900">
-              Meet Our Leaders
+            <h2 className="font-heading text-4xl font-bold text-navy-900 mb-8">
+              Faculty Directory
             </h2>
+
+            <div className="max-w-xs mx-auto mb-10">
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white shadow-sm text-navy-900 font-medium"
+              >
+                {categories.map(cat => (
+                  <option key={cat} value={cat}>{cat}</option>
+                ))}
+              </select>
+            </div>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {facultyHighlights.map((faculty, index) => (
+            {filteredFaculty.map((faculty, index) => (
+
               <motion.div
                 key={faculty.name}
                 initial={{ opacity: 0, y: 30 }}
