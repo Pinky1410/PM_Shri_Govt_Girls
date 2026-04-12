@@ -99,7 +99,7 @@ const upcomingEvents = [
       "/images/events/Edu_1.jpg",
       "/images/events/Edu_2.jpg",
       "/images/events/Edu_3.jpg",
-      "/images/events/Edu_4.jpg",
+      "/images/events/edu_4.jpg",
       "/images/events/Edu_5.jpg",
       "/images/events/Edu_6.jpg",
 
@@ -141,8 +141,8 @@ const upcomingEvents = [
     image: "/images/events/visit_1.jpg",
     gallery: [
       "/images/events/visit_1.jpg",
-      "/images/events/visit_2.jpg",
-      "/images/events/visit_3.jpg",
+      "/images/events/Visit_2.jpg",
+      "/images/events/Visit_3.jpg",
       "/images/events/visit_4.jpg",
     ]
   }
