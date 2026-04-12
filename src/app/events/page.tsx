@@ -99,7 +99,6 @@ const upcomingEvents = [
       "/images/events/Edu_1.jpg",
       "/images/events/Edu_2.jpg",
      
-      "/images/events/Edu_6.jpg",
 
     ]
   },
@@ -124,6 +123,7 @@ const upcomingEvents = [
        "/images/events/Edu_3.jpg",
       "/images/events/edu_4.jpg",
       "/images/events/Edu_5.jpg",
+       "/images/events/Edu_6.jpg",
       "/images/events/peepul_3.jpg",
       "/images/events/peepul_4.jpg",
     ]
@@ -139,6 +139,7 @@ const upcomingEvents = [
     category: "Academic",
     featured: true,
     fullWidth: false,
+     reportImage: "/images/events/Careerreport.jpg",
     image: "/images/events/visit_1.jpg",
     gallery: [
       "/images/events/visit_1.jpg",
