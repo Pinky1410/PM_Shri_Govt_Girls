@@ -143,8 +143,8 @@ export default function HistoryPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <div className="aspect-[4/3] relative">
                   <Image
-                    src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
-                    alt="School Heritage"
+                    src="/images/events/school-image.jpeg"
+                    alt="PMSHRI GOVT. GIRLS H.S. SCHOOL BHOPAL"
                     fill
                     className="object-cover"
                   />
