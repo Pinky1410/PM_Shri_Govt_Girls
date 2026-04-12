@@ -82,7 +82,7 @@ const facultyHighlights = [
     name: "Mrs. Roshni Toppo",
     role: "Arts (geogrophy) UMS",
     bio: "Work Experience 13+ years in teaching.",
-    image: "/images/faculty/Roshni_toppo.jpg",
+    image: "/images/faculty/Roshni_Toppo.jpg",
   },
   {
     name: "Mrs. Aarti Singh RAI",
@@ -305,7 +305,7 @@ const facultyHighlights = [
     name: "Mrs. Swati Verma",
     role: "Pre-Primary Guest Teacher",
     bio: "Work Experience 1+ years in teaching.",
-    image: "/images/faculty/Swati_Verma.jpg",
+    image: "/images/faculty/Swati_verma.jpg",
   },
 
   {
