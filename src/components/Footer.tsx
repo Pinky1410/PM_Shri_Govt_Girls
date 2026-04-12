@@ -90,7 +90,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Empowering girls through quality education since inception. 
+              Empowering girls through quality education since inception.
               A premier government institution committed to academic excellence and holistic development.
             </p>
             <div className="flex gap-3">
@@ -183,7 +183,7 @@ export default function Footer() {
                   href="tel:+91755294118"
                   className="text-gray-400 text-sm hover:text-white transition-colors"
                 >
-                  +91 755 294 118
+                  +91 9630313621, +91 9407273967
                 </a>
               </li>
               <li className="flex items-center gap-3">
