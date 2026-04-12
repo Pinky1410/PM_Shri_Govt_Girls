@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Award, Users, BookOpen, Target, History, Lightbulb } from "lucide-react";
 
 const milestones = [
-  { year: "1984", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was established with a vision to provide quality education rooted in values." },
+  { year: "1986", title: "Foundation", description: "PM Shri Govt. MLB GIRLS Higher Secondary School was established with a vision to provide quality education rooted in values." },
   { year: "1999", title: "Expansion", description: "Added secondary school facilities and introduced advanced science laboratories." },
   { year: "2012", title: "Technology Integration", description: "Pioneered computer education with state-of-the-art computer labs." },
   { year: "2015", title: "Recognition", description: "Received accreditation for academic excellence in girls education." },
