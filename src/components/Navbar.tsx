@@ -22,7 +22,7 @@ const navItems = [
       { name: "History", href: "/about/history" },
       { name: "Mission & Vision", href: "/about/mission" },
       { name: "Principal's Message", href: "/about/principal-message" },
-      { name: "Achievements", href: "/about/achievements" },
+      { name: "Achievements", href: "/about/achievements.tsx" },
     ],
   },
   {
