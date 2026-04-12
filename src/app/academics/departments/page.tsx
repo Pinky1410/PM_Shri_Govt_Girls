@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { BookOpen, FlaskConical, Calculator, Globe, Computer, Palette, Music, Languages, Baby } from "lucide-react";
+import { BookOpen, FlaskConical, Calculator, Sprout, Globe, Computer, Palette, Music, Languages, Baby } from "lucide-react";
 
 const departments = [
   {
@@ -36,7 +36,7 @@ const departments = [
     image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=400&q=80",
   },
   {
-    icon: Languages,
+    icon: Sprout,
     name: "Agriculture Vocational",
     description: "Hands-on training in modern farming techniques, crop production, animal husbandry, and sustainable agricultural practices to prepare students for real-world agricultural careers.",
     courses: [
