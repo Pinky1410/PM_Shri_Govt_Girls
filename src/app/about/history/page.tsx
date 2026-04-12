@@ -141,14 +141,13 @@ export default function HistoryPage() {
               className="relative"
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <div className="aspect-[4/3] relative">
-                  <Image
-                    src="/images/school-image.jpeg"
-                    alt="PMSHRI GOVT. GIRLS H.S. SCHOOL BHOPAL"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                <Image
+                  src="/images/school-image.jpeg"
+                  alt="PMSHRI GOVT. GIRLS H.S. SCHOOL BHOPAL"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-contain"
+                />
               </div>
             </motion.div>
             <motion.div
