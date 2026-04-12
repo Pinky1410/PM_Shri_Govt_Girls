@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { BookOpen, FlaskConical, Calculator, Globe, Computer, Palette, Music, Languages } from "lucide-react";
+import { BookOpen, FlaskConical, Calculator, Globe, Computer, Palette, Music, Languages, Baby } from "lucide-react";
 
 const departments = [
   {
@@ -70,6 +70,22 @@ const departments = [
     courses: ["Band", "Choir", "Orchestra", "Drama", "Music Theory", "AP Music Theory", "Dance", "Drama"],
     image: "https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=400&q=80",
   },
+  {
+
+    icon: Baby,
+    name: "Bal Vatika (Pre-Primary)",
+    description: "A joyful and nurturing early learning program focused on developing basic skills, creativity, social interaction, and emotional growth through play-based and activity-oriented learning.",
+    courses: [
+      "Rhymes & Storytelling",
+      "Basic Literacy (Alphabets & Words)",
+      "Basic Numeracy (Numbers & Counting)",
+      "Art & Craft",
+      "Play-Based Learning",
+      "Social & Motor Skills Development"
+    ],
+    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=400&q=80",
+  },
+
 ];
 
 export default function DepartmentsPage() {
