@@ -7,19 +7,19 @@ import Link from "next/link";
 const newsItems = [
   {
     id: 1,
-    title: "Annual Science Fair Winners Announced",
-    date: "March 15, 2026",
-    category: "Academics",
-    excerpt: "Our students showcased innovative projects at the regional science fair, winning top honors in multiple categories including robotics and environmental science.",
+    title: "Award Ceremony",
+    date: "April 15, 2026",
+    category: "Programs",
+    excerpt: "Award Ceremony for the session 2025-26",
     icon: Award,
     featured: true,
   },
   {
     id: 2,
-    title: "New Sports Complex Inauguration",
-    date: "March 10, 2026",
-    category: "Facilities",
-    excerpt: "State-of-the-art swimming pool and indoor courts now open for student use, featuring Olympic-standard equipment.",
+    title: "Earth Day Celebration",
+    date: "April 22 , 2026",
+    category: "Events",
+    excerpt: "Our Power, Our Planet (highlighting individual and collective action)",
     icon: Users,
     featured: false,
   },
@@ -113,11 +113,10 @@ export default function NewsPage() {
               {notices.map((notice) => (
                 <div
                   key={notice.id}
-                  className={`flex-shrink-0 px-4 py-2 rounded-lg text-sm ${
-                    notice.urgent
-                      ? "bg-red-100 text-red-700"
-                      : "bg-white text-navy-700 border border-navy-200"
-                  }`}
+                  className={`flex-shrink-0 px-4 py-2 rounded-lg text-sm ${notice.urgent
+                    ? "bg-red-100 text-red-700"
+                    : "bg-white text-navy-700 border border-navy-200"
+                    }`}
                 >
                   <span className="font-medium">{notice.title}</span>
                   <span className="ml-2 text-gray-500">{notice.date}</span>
