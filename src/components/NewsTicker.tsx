@@ -5,11 +5,11 @@ import { Megaphone } from "lucide-react";
 
 const notices = [
   { text: "Admissions open for academic year 2026-27", type: "important" },
-  { text: "Annual Sports Day scheduled for December 15", type: "event" },
-  { text: "Parent-Teacher Meeting on November 25", type: "meeting" },
-  { text: "Winter vacation starts from December 26", type: "holiday" },
-  { text: "MP Board Exam forms available now", type: "exam" },
-  { text: "New Computer Lab inaugurated", type: "announcement" },
+  { text: "Award Ceremony 2025-26", type: "event" },
+  { text: "Summer Camp 1 May2026", type: "event" },
+  { text: "Summer vacation 1 May - 15 June 2026", type: "Holiday" },
+  { text: "Earth Day Celebration 22 April 2026", type: "event" },
+  { text: "School Start on 16 June 2026", type: "announcement" },
 ];
 
 export default function NewsTicker() {
@@ -47,7 +47,7 @@ export default function NewsTicker() {
               }
             `}
           </style>
-          
+
           {/* Scrolling Track - 4x width for seamless loop */}
           <div className="seamless-marquee flex items-center whitespace-nowrap">
             {allNotices.map((notice, index) => (
