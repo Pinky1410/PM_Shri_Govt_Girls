@@ -47,7 +47,7 @@ const departments = [
     "Poultry Farming",
     "Agricultural Technology"
   ],
- image: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=400&q=80",
+   image: "/images/events/agriculture.jpg",
 },
   {
     icon: Computer,
