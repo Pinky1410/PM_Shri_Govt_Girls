@@ -98,9 +98,7 @@ const upcomingEvents = [
     gallery: [
       "/images/events/Edu_1.jpg",
       "/images/events/Edu_2.jpg",
-      "/images/events/Edu_3.jpg",
-      "/images/events/edu_4.jpg",
-      "/images/events/Edu_5.jpg",
+     
       "/images/events/Edu_6.jpg",
 
     ]
@@ -123,6 +121,9 @@ const upcomingEvents = [
     gallery: [
       "/images/events/peepul_1.jpg",
       "/images/events/peepul_2.jpg",
+       "/images/events/Edu_3.jpg",
+      "/images/events/edu_4.jpg",
+      "/images/events/Edu_5.jpg",
       "/images/events/peepul_3.jpg",
       "/images/events/peepul_4.jpg",
     ]
