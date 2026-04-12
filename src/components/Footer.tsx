@@ -85,7 +85,7 @@ export default function Footer() {
                 <GraduationCap className="w-7 h-7 text-gold-500" />
               </div>
               <div>
-                <h3 className="font-heading font-bold text-base leading-tight">PM Shri Govt. MLB</h3>
+                <h3 className="font-heading font-bold text-base leading-tight">PMSHRI GOVT. MLB</h3>
                 <p className="text-sm text-gray-400">GIRLS Higher Secondary School</p>
               </div>
             </div>
