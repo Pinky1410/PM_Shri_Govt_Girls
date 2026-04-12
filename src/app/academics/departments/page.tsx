@@ -36,19 +36,19 @@ const departments = [
     image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=400&q=80",
   },
   {
-    icon: Sprout,
-    name: "Agriculture Vocational",
-    description: "Hands-on training in modern farming techniques, crop production, animal husbandry, and sustainable agricultural practices to prepare students for real-world agricultural careers.",
-    courses: [
-      "Crop Production",
-      "Soil Science",
-      "Horticulture",
-      "Dairy Farming",
-      "Poultry Farming",
-      "Agricultural Technology"
-    ],
-    image: "/images/events/agriculture.jpg",
-  },
+  icon: Sprout,
+  name: "Agriculture Vocational",
+  description: "Hands-on training in modern farming techniques, crop production, animal husbandry, and sustainable agricultural practices to prepare students for real-world agricultural careers.",
+  courses: [
+    "Crop Production",
+    "Soil Science",
+    "Horticulture",
+    "Dairy Farming",
+    "Poultry Farming",
+    "Agricultural Technology"
+  ],
+  image: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=400&q=80",
+},
   {
     icon: Computer,
     name: "Vocational IT & ICT ",
