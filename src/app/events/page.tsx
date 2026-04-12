@@ -45,11 +45,11 @@ const upcomingEvents = [
     featured: true,
     fullWidth: false,
     reportImage: "/images/events/WaterReport.jpg",
-    image: "/images/events/water_1.jpg",
+    image: "/images/events/Water_1.jpg",
     gallery: [
-      "/images/events/water_2.jpg",
-      "/images/events/water_3.jpg",
-      "/images/events/water_4.jpg"
+      "/images/events/Water_2.jpg",
+      "/images/events/Water_3.jpg",
+      "/images/events/Water_4.jpg"
     ]
   },
   {
