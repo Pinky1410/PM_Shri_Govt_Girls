@@ -18,24 +18,323 @@ const facultyHighlights = [
     bio: "Leading the institution with vision and dedication, fostering academic excellence and holistic student development.",
     image: "/images/principal.jpeg",
   },
+
   {
     name: "Dr. Jitendra Pal Singh Chauhan",
-    role: "ICT Prabhari",
+    role: "PMSHRI and  ICT Prabhari",
     bio: "Overseeing ICT lab operations and digital infrastructure, ensuring cutting-edge technology education for all students.",
-    image: "/images/faculty/ICT Prabhari.jpeg",
+    image: "/images/faculty/PMShri_Incharge.jpg",
   },
+  {
+    name: "Mr. D.C. Modak",
+    role: "Head Master",
+    bio: "Work Experience 35+ years in teaching.",
+    image: "/images/faculty/DC_Modak.jpg",
+  },
+  {
+    name: "Mrs. Sandhya_Jain",
+    role: "senior Lecturer",
+    bio: "Work Experience 35 years in teaching.",
+    image: "/images/faculty/Sandhya_Jain.jpg",
+  },
+  {
+    name: "Mrs. Bhavana Mehta",
+    role: "Physics UMS & Exam Incharge",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Bhavana_Mehta.jpg",
+  },
+  {
+    name: "Mrs. Mamta Dixit",
+    role: "Accounts UMS",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/Mamta_dixit.jpg",
+  },
+  {
+    name: "Mrs. Priti Mishra",
+    role: "English UMS",
+    bio: "Work Experience 35+ years in teaching.",
+    image: "/images/faculty/Priti_Mishra.jpg",
+  },
+
+  {
+    name: "Mr. Rakesh Rajoriya",
+    role: "Hindi UMS",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/Rakesh_Rajoriya.jpg",
+  },
+
+  {
+    name: "Dr. Vijeta Bhatnagar",
+    role: "Commerce UMS",
+    bio: "Work Experience 13+ years in teaching.",
+    image: "/images/faculty/Dr.Vijeta_Bhatnagar.jpg",
+  },
+
+  {
+    name: "Mr. Yashwant Bhuarya",
+    role: "Hindi UMS",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/Yashwant_bhuarya.jpg",
+  },
+  {
+
+    name: "Mrs. Roshni Toppo",
+    role: "Arts (geogrophy) UMS",
+    bio: "Work Experience 13+ years in teaching.",
+    image: "/images/faculty/Roshni_Toppo.jpg",
+  },
+  {
+    name: "Mrs. Aarti Singh RAI",
+    role: "Chemistry UMS",
+    bio: "Work Experience 13+ years in teaching.",
+    image: "/images/faculty/Aarti.jpg",
+  },
+  {
+    name: "Mrs. Reena Mishra",
+    role: "Biology UMS",
+    bio: "Work Experience 5+ years in teaching.",
+    image: "/images/faculty/Rina_Mishra.jpg",
+  },
+  {
+    name: "Mrs. Priyanka Rathore",
+    role: "Maths UMS",
+    bio: "Work Experience 5+ years in teaching.",
+    image: "/images/faculty/Priyank_rathore.jpg",
+  },
+  {
+    name: "Mrs. Rupali Dubey",
+    role: "Economic UMS",
+    bio: "Work Experience 1+ years in teaching.",
+    image: "/images/faculty/Rupali_Dubey.jpg",
+  },
+
+  //High School
+
+  {
+    name: "Mrs. Anita Vashisht",
+    role: "Science MS",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Anita_Vashith.jpg",
+  },
+
+  {
+    name: "Mrs. Priti Saxena",
+    role: "Maths MS",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Priti_Saxena.jpg",
+  },
+  {
+    name: "Mrs. Savita Varudkar",
+    role: "Hindi MS",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Savita_Varudkar.jpg",
+  },
+  {
+    name: "Mrs. Reeta Gupta",
+    role: "Maths MS",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/Rita_Gupta.jpg",
+  },
+
+  {
+    name: "Mrs. Parwati Uikey",
+    role: "Hindi MS",
+    bio: "Work Experience 35+ years in teaching.",
+    image: "/images/faculty/Parwati_Uiky.jpg",
+  },
+
+  {
+    name: "Mrs. Anuradha Chouhan",
+    role: "English MS",
+    bio: "Work Experience 20+ years in teaching.",
+    image: "/images/faculty/Anuradha_Chouhan.jpg",
+  },
+  {
+    name: "Mrs. Sugandhi Shriwastav",
+    role: "English MS",
+    bio: "Work Experience 6+ years in teaching.",
+    image: "/images/faculty/Sugandhi_Shriwastav.jpg",
+  },
+
+  {
+    name: "Mrs. Krishna Malviya",
+    role: "Lab Assistant & NCC Incharge",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Krishna_Malviya.jpg",
+  },
+  {
+    name: "Mr. Aakash Tiwari",
+    role: "Lab Assistant",
+    bio: "Work Experience 5+ years in teaching.",
+    image: "/images/faculty/Aakash_Tiwari.jpg",
+  },
+  //Middle School
+
+  {
+    name: "Mrs. Jaishri Thakre",
+    role: "Middle School Teacher",
+    bio: "Work Experience 35+ years in teaching.",
+    image: "/images/faculty/Jaishri_Thakre.jpg",
+  },
+
+  {
+    name: "Mr. Rajesh  Sonpure",
+    role: " Maths Middle School Teacher",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/Rajesh_Sonpure.jpg",
+  },
+
+  {
+    name: "Mrs. Babita Yadav",
+    role: "Science Teacher",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Babita_yadav.jpg",
+  },
+
+  {
+    name: "Mrs. Sunita Singh",
+    role: "Sanskrit Teacher",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Sunita_singh.jpg",
+  },
+  {
+    name: "Mrs. Rashmi Khare",
+    role: "Middle School teacher",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Rashmi_Khare.jpg",
+  },
+  {
+    name: "Mrs. Yogeshwari Patle",
+    role: "Sanskrit Teacher",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Yogeshwari_Patle.jpg",
+  },
+
+  {
+    name: "Mrs. Samita Debnath",
+    role: "English Teacher",
+    bio: "Work Experience 15+ years in teaching.",
+    image: "/images/faculty/Samita_Debnath.jpg",
+  },
+
+
+
+  // Pre-primary & Primary Teachers
+  {
+    name: "Mrs. Meera Handa",
+    role: "Primary Teacher",
+    bio: "Work Experience 35+ years in teaching.",
+    image: "/images/faculty/Meera_handa.jpg",
+  },
+
+
+  {
+    name: "Mrs. Meena sisodiya",
+    role: "Primary Teacher",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Meena_sisodiya.jpg",
+  },
+
+
+  {
+    name: "Mrs. Leena Singh",
+    role: "Primary Teacher",
+    bio: "Work Experience 30+ years in teaching.",
+    image: "/images/faculty/Leena_singh.jpg",
+  },
+
+  {
+    name: "Mrs. Abha Shriwastav",
+    role: "Lab Assistant",
+    bio: "Work Experience 20+ years in teaching.",
+    image: "/images/faculty/Abha_Shriwastav.jpg",
+  },
+
+  {
+    name: "Mr. RAMDAS Chouhan",
+    role: "Primary teacher",
+    bio: "Work Experience 20+ years in teaching.",
+    image: "/images/faculty/Ramdas_Chouhan.jpg",
+  },
+
+  {
+    name: "Mr. Sandeep Muchikar",
+    role: "Primary teacher",
+    bio: "Work Experience 20+ years in teaching.",
+    image: "/images/faculty/Sandeep_Muchikar.jpg",
+  },
+
+  {
+    name: "Mr. RamNaryan Dangi",
+    role: "Primary teacher",
+    bio: "Work Experience 25+ years in teaching.",
+    image: "/images/faculty/RamNaryan_Dangi.jpg",
+  },
+
+
+  // Vocational Trainer
+
+  {
+    name: "Mrs. Neha Goswami",
+    role: "IT Teacher(VT)",
+    bio: "Work Experience 6+ years in teaching.",
+    image: "/images/faculty/Neha_Goswami.jpg",
+  },
+
+  {
+    name: "Mrs. Mamta Parmar",
+    role: "Agriculture Teacher(VT)",
+    bio: "Work Experience 2+ years in teaching.",
+    image: "/images/faculty/Mamta_parmar.jpg",
+  },
+  // ICT Computer Instructor
   {
     name: "Mrs. Bhomershwari Pardhi",
-    role: "ICT Trainer",
-    bio: "Dedicated to training students in computer skills, programming fundamentals, and digital literacy programs.",
+    role: "ICT Computer Instructor",
+    bio: "Dedicated to training students in computer skills, programming fundamentals, and digital literacy programs. Work Experience 3+ years in teaching.",
     image: "/images/faculty/ICT trainer.jpeg",
   },
+
+
+
+  // Other Faculty
+
+
   {
-    name: "Faculty_name",
-    role: "faculty Role",
-    bio: "Sample bio for demonstration purposes.",
-    image: "https://ui-avatars.com/api/?name=Faculty&background=0D47A1&color=fff&size=300",
+    name: "Mrs. Swati Verma",
+    role: "Pre-Primary Guest Teacher",
+    bio: "Work Experience 1+ years in teaching.",
+    image: "/images/faculty/Swati_Verma.jpg",
   },
+
+  {
+    name: "Mrs. Sabeena Masih",
+    role: "Pre-Primary Helper Teacher",
+    bio: "Work Experience 2+ years in teaching.",
+    image: "/images/faculty/Sabeena_Masih.jpg",
+  },
+
+  {
+    name: "Miss. Savita Sahu ",
+    role: "Computer operator",
+    bio: "Work Experience 10+ years in teaching.",
+    image: "/images/faculty/Savita_Sahu.jpg",
+  },
+
+  // School helping staff
+  {
+    name: "Mrs. Kamna Rajpoot",
+    role: "School helping staff",
+    bio: "Work Experience 20+ years.",
+    image: "/images/faculty/Kamna.jpg",
+  },
+  {
+    name: "Mr. Harprasad Maithil",
+    role: "School helping staff",
+    bio: "Work Experience 15+ years.",
+    image: "/images/faculty/HariParasad_Maithil.jpg",
+  },
+
 ];
 
 export default function FacultyPage() {
@@ -124,12 +423,12 @@ export default function FacultyPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="card-premium overflow-hidden text-center group"
               >
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-[400px] overflow-hidden bg-gray-100">
                   <Image
                     src={faculty.image}
                     alt={faculty.name}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-0 right-0 text-white">
