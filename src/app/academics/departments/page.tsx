@@ -47,7 +47,7 @@ const departments = [
       "Poultry Farming",
       "Agricultural Technology"
     ],
-    image: "/images/departments/agriculture.jpg",
+    image: "/images/events/agriculture.jpg",
   },
   {
     icon: Computer,
