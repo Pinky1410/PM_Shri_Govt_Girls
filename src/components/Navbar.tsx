@@ -73,7 +73,7 @@ export default function Navbar() {
               className="flex items-center gap-2 hover:text-gold-400 transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span>+91 755 294 118</span>
+              <span>+91 9630313621, +91 9407273967</span>
             </a>
             <a
               href="mailto:govtmlbschool1986@gmail.com"
@@ -92,11 +92,10 @@ export default function Navbar() {
 
       {/* Main Navbar */}
       <header
-        className={`sticky top-0 z-50 w-full transition-all duration-500 ${
-          isScrolled
-            ? "glass shadow-lg py-1"
-            : "bg-white/95 backdrop-blur-sm py-2"
-        }`}
+        className={`sticky top-0 z-50 w-full transition-all duration-500 ${isScrolled
+          ? "glass shadow-lg py-1"
+          : "bg-white/95 backdrop-blur-sm py-2"
+          }`}
       >
         <div className="container-custome px-10">
           <nav className="flex items-center justify-between">
@@ -113,10 +112,10 @@ export default function Navbar() {
               </div>
               <div className="hidden sm:block">
                 <h1 className="font-heading font-bold text-navy-900 text-base leading-tight">
-                  PM Shri Govt. MLB
+                  PMSHRI GOVT.
                 </h1>
                 <p className="text-xs text-gray-600 font-medium">
-                  GIRLS HSS
+                  MLB GIRLS HSS
                 </p>
               </div>
             </Link>
@@ -137,9 +136,8 @@ export default function Navbar() {
                     {item.name}
                     {item.children && (
                       <ChevronDown
-                        className={`w-4 h-4 transition-transform duration-200 ${
-                          activeDropdown === item.name ? "rotate-180" : ""
-                        }`}
+                        className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.name ? "rotate-180" : ""
+                          }`}
                       />
                     )}
                   </Link>
